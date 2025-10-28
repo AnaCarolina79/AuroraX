@@ -18,8 +18,14 @@
         font-size: 18px;
     }
     div:nth-child(2){
-        background: linear-gradient(to right, rgb(189, 99, 250), rgb(169, 65, 255)) ;
+        background-image: linear-gradient(to right,rgb(169, 65, 255), rgb(186, 83, 255),rgb(186, 83, 255), rgb(169, 65, 255)) ;
         color: white;
+        background-position: left;
+        background-size: 450%;
+        transition: 0.4s background-position ease-in-out;
+    &:hover{
+        background-position: right
+    }
     };
     svg{
         margin: -15% 0 0 0;
