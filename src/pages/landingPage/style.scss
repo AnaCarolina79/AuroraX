@@ -60,7 +60,7 @@ span{
 .about{
     display: flex;
     justify-content: space-between;
-    padding: 0% 10% 0 10%;
+    padding: 0% 10% 0 5%;
     img{
         width: 45%;
         height: auto;
@@ -88,7 +88,7 @@ span{
             justify-content: flex-start;
             flex-direction: row;
             gap: 10px;
-            margin: 5% 0 0 0;
+            margin: 2% 0 0 0;
         }
         .icon{
                 background: linear-gradient(to right, rgb(189, 99, 250), rgb(169, 65, 255)) ;
@@ -96,7 +96,7 @@ span{
             box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.205);
             border-radius: 50%;
             width:auto;
-            padding: 15px;
+            padding: 10px;
             display: flex;
             margin: 0;
             align-items: center;
