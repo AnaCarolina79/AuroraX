@@ -1,10 +1,10 @@
 import React from 'react'
+import './style.scss'
 import Navbar from '../../components/navbar'
 import Card from '../../components/cardPresentation'
-
-import './style.scss'
 import Hero from './hero';
 import About from './about';
+import Courses from './courses';
 function LandingPage() {
   return (
     <>
@@ -12,6 +12,7 @@ function LandingPage() {
         <Hero/>
         <Card/>
         <About/>
+        <Courses/>
     </>
   )
 }
