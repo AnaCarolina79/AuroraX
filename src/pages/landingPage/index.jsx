@@ -5,6 +5,7 @@ import Card from '../../components/cardPresentation'
 import Hero from './hero';
 import About from './about';
 import Courses from './courses';
+import Categories from './categories';
 function LandingPage() {
   return (
     <>
@@ -12,6 +13,7 @@ function LandingPage() {
         <Hero/>
         <Card/>
         <About/>
+        <Categories/>
         <Courses/>
     </>
   )
