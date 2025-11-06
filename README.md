@@ -5,4 +5,4 @@ O **AuroraX** é uma plataforma de cursos online desenvolvida com **React**, **N
 O projeto nasceu como uma evolução de uma iniciativa interna de ensino voltada para estagiários, com outro nome, desenvolvida em uma antiga experiência profissional.  
 Após o encerramento daquele ciclo, estou criando o **AuroraX** como uma forma de continuar a ideia — agora com uma visão mais ampla e aberta, voltada à comunidade.
 
-> 💬 *“AuroraX é sobre continuar aprendendo, compartilhando conhecimento e criando um ambiente em que todos possam mudar o mundo, juntos.”*
+> 💬 *“AuroraX é sobre continuar aprendendo, inspirando pessoas e criando um ambiente em que todos possam mudar o mundo, juntos.”*
