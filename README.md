@@ -18,7 +18,7 @@ Após o encerramento daquele ciclo, estou criando o **AuroraX** como uma forma d
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/aurorax.git
+   git clone https://github.com/<REPO_OWNER>/<REPO_NAME>.git
    
 2. Acesse as pastas do Back:
 cd aurorax/backend
