@@ -7,7 +7,7 @@ Após o encerramento daquele ciclo, estou criando o **AuroraX** como uma forma d
 
 > 💬 *“AuroraX é sobre continuar aprendendo, inspirando pessoas e criando um ambiente em que todos possam mudar o mundo, juntos.”*
 
-## 🚀 Tecnologias
+## 🌠 Tecnologias
 
 - **Frontend:** React, Vite, TypeScript, Tailwind CSS  
 - **Backend:** Node.js, Express, Prisma, PostgreSQL  
