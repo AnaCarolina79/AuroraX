@@ -6,3 +6,37 @@ O projeto nasceu como uma evolução de uma iniciativa interna de ensino voltada
 Após o encerramento daquele ciclo, estou criando o **AuroraX** como uma forma de continuar a ideia — agora com uma visão mais ampla e aberta, voltada à comunidade.
 
 > 💬 *“AuroraX é sobre continuar aprendendo, inspirando pessoas e criando um ambiente em que todos possam mudar o mundo, juntos.”*
+
+## 🚀 Tecnologias
+
+- **Frontend:** React, Vite, TypeScript, Tailwind CSS  
+- **Backend:** Node.js, Express, Prisma, PostgreSQL  
+- **Autenticação:** JWT (planejada: OAuth 2.0 / NextAuth)  
+- **Outros:** Docker, ESLint, Prettier
+
+## ⚙️ Como rodar o projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seuusuario/aurorax.git
+   
+2. Acesse as pastas do Back:
+cd aurorax/backend
+npm install
+npm run dev
+
+3. Acesse as pastas do Front:
+cd aurorax/frontend
+npm install
+npm run dev
+
+#### **📈 Roadmap / Próximos passos**
+```markdown
+## 📈 Roadmap
+
+- [x] Setup inicial do frontend e backend  
+- [ ] Configuração do banco de dados (Prisma + PostgreSQL)  
+- [ ] Autenticação de usuários 
+- [ ] Dashboard do professor  
+- [ ] Upload e gerenciamento de aulas e trilhas  
+- [ ] Sistema de progresso e certificados
