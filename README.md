@@ -40,3 +40,5 @@ npm run dev
 - [ ] Dashboard do professor  
 - [ ] Upload e gerenciamento de aulas e trilhas  
 - [ ] Sistema de progresso e certificados
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
