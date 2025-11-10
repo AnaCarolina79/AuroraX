@@ -1,6 +1,0 @@
-model Curso {
-  id      String @id @default(auto()) @map("_id") @db.ObjectId
-  titulo  String
-  autor   String
-  ativo   Boolean @default(true)
-}
