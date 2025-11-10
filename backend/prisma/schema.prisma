@@ -1,6 +1,6 @@
-
 generator client {
   provider = "prisma-client-js"
+  previewFeatures = ["mongodb"]
 }
 
 datasource db {
@@ -8,4 +8,9 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-import "./models/teste.prisma"
+model Usuarios {
+  id      String @id @default(auto()) @map("_id") @db.ObjectId
+  titulo  String
+  autor   String
+  ativo   Boolean @default(true)
+}
