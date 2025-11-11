@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.scss'
-import course from '../../assets/retratoo.png'
+import course from '../../assets/imagens/retratoo.png'
 import { BsBriefcase } from "react-icons/bs";
 import { IoBookOutline } from "react-icons/io5";
 import Button from '../../components/button';

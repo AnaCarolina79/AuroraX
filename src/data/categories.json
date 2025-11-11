@@ -1,0 +1,11 @@
+
+[
+  { "id": 1, "text": "Desenvolvimento Web", "icon": "FaSitemap" },
+  { "id": 2, "text": "Desenvolvimento Mobile", "icon": "FaMobileAlt" },
+  { "id": 3, "text": "Banco de Dados", "icon": "FaDatabase" },
+  { "id": 4, "text": "Machine Learning", "icon": "FaBrain" },
+  { "id": 5, "text": "Inteligência Artificial", "icon": "FaRobot" },
+  { "id": 6, "text": "Game Development", "icon": "FaGamepad" },
+  { "id": 7, "text": "UX/UI Design", "icon": "FaPalette" },
+  { "id": 8, "text": "Animação Digital", "icon": "FaFilm"}
+]

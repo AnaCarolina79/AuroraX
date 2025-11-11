@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './style.scss'
-import logo from '../../assets/auroraxLogo.svg'
+import logo from '../../assets/imagens/auroraxLogo.svg'
 import Button from '../button'
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
