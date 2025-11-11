@@ -1,181 +1,176 @@
-    .presentation{
-        width: 100%;
-        height: auto;
-        margin: -5% 0 0 0;
-        z-index: 10;
-        @media (max-width:1400px) {
-            margin: -8% 0 0 0;
-        };
-        @media (max-width:900px) {
-            margin: -12% 0 0 0;
-        }
-    }
-    .textPresentation{
-        display: flex;
-        width: 32vw;
-        margin: -30% 5% 8% 5%;
-    .text{
-        display: flex;
-        gap: 10px;
-        flex-direction: column;
-        margin: -10% 0 0 0;
-        color: rgb(255, 255, 255);
-        height: 40vh;
-        padding: 6% 10% 20px 20px;
-       
-        .botoes{
-            display: flex;
-            gap: 15px;
-        
-            .inscreva-se{
-                width: 40%;
-                padding: 9px;
-                border-radius: 20px;
-                border: none;
-                box-shadow:  1px 2px 5px rgba(0, 0, 0, 0.315);
-                margin: 10px 0 0 0;
-                font-size: 15px;
-                &:first-child{
-                background: linear-gradient(to right, rgb(189, 99, 250), rgb(172, 71, 255), rgb(172, 71, 255), rgb(171, 60, 245)) ;
-                color: white;
-                font-weight: bold;
-                 background-position: left;
-        background-size: 450%;
-        transition: 0.3s background-position ease-in-out;
-                &:hover{
-                     background-position: right
-                }
-                }
-            }
-        }
+@use '../../assets/mixins/geral.scss' as *;
 
-p{
-    font-size: 18px;
-};
-span{
-         color: rgb(211, 144, 255) 
-        };    
-    }
-}
-.about{
-    display: flex;
-    justify-content: space-between;
-    padding: 0% 10% 0 5%;
-    h2{
-        color: rgb(27, 27, 27);
-        margin: 0 0 5px 0;
-    }
-    .explorer{
-        margin: 5% 0 0 0;
-        button{
-            padding: 14px;
-            width: 100%;
-        }
-    }
-    img{
-        width: 47%;
-        height: auto;
-    }
-    div{
-        margin: 5% 0 0 0;
-        width: 45%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        p{
-            color: rgb(49, 49, 49);
-        }
-    }
-    .icons {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        margin: 0;
-        .iconDivision{
-            display: flex;
-            align-items: center;
-        width: 100%;
-            justify-content: flex-start;
-            flex-direction: row;
-            gap: 10px;
-            margin: 2% 0 0 0;
-        }
-        .icon{
-                background: linear-gradient(to right, rgb(189, 99, 250), rgb(169, 65, 255)) ;
+.presentation {
+  width: 100%;
+  height: auto;
+  margin: -5% 0 0;
+  z-index: 10;
 
-            box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.205);
-            border-radius: 50%;
-            width:auto;
-            padding: 10px;
-            display: flex;
-            margin: 0;
-            align-items: center;
-            justify-content: center;
-            height: auto;
+  @include responsive(1400px) {
+    margin: -8% 0 0;
+  }
 
-      
-        }   
-    }
-}
-.titulo{
-    margin: 4% 0 3% 0;
-text-align: center;
-span{
-          color: rgb(190, 94, 255); 
-          font-weight: 600
+  @include responsive(900px) {
+    margin: -12% 0 0;
+  }
 }
 
-.subtitle{
-    font-size: 19px;
+// =========================
+// HERO 
+// =========================
+.textPresentation {
+  @include flex-center(row, 0, flex-start, flex-start);
+  width: 32vw;
+  margin: -30% 5% 8% 5%;
 
-}
-p{
-    
-    font-size: 21px;
-};
-}
-.categories{
+  .text {
+    @include flex-center(column, 10px, flex-start, flex-start);
+    color: #fff;
+    height: 40vh;
+    margin-top: -10%;
+    padding: 6% 10% 20px 20px;
 
-    background-color: rgb(14, 14, 14);
-    padding:2% 0;
+    p {
+      font-size: 18px;
+    }
 
-    h2{
-        text-align: center;
-        margin: 2% 0;
+    span {
+      color: rgb(211, 144, 255);
+    }
+
+    .botoes {
+      @include flex-center(row, 15px, flex-start, center);
+      width: 100%;
+
+      .inscreva-se {
+        @include button();
+        @include gradient-bg();
         color: white;
+    &:nth-child(2) {
+      background: #fff;
+      color: #000; 
+      font-weight: 100
+    }
+    }
 
     }
-    .categorie{
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 30px;
-        .cards{
-            svg{
-                margin: 0;
-            }
+  }
+}
 
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            font-size: 15px;
-            flex-direction: row;
-            width: 20vw;
-            text-align: center;
-            height: 8vh;
-            padding: 14px;
-           background: linear-gradient(to right, rgb(189, 99, 250), rgb(172, 71, 255), rgb(172, 71, 255), rgb(171, 60, 245)) ;
-                color: white;
-                font-weight: bold;
-                 background-position: left;
-        background-size: 450%;
-        border-radius: 20px;
-        transition: 0.3s background-position ease-in-out;
-                &:hover{
-                     background-position: right
-                }
-                }
-        }
+// =========================
+// ABOUT
+// =========================
+.about {
+  @include flex-center(row, 0, space-between);
+  padding: 0 10% 0 5%;
+
+  h2 {
+    color: rgb(27, 27, 27);
+    margin-bottom: 5px;
+  }
+
+  div {
+    
+    width: 45%;
+    @include flex-center(column, 10px, flex-start, flex-start);
+
+    p {
+      color: rgb(49, 49, 49);
     }
+  }
+
+  .explorer {
+    margin-top: 5%;
+
+    button {
+      width: 100%;
+      padding: 14px;
+    }
+  }
+
+  img {
+    width: 47%;
+    height: auto;
+  }
+
+  .icons {
+    @include flex-center(column, 0, flex-start, center);
+    width: 100%;
+    gap: 20px;
+    .iconDivision {
+      @include flex-center(row, 10px, flex-start, center);
+      width: 100%;
+      margin-top: 4%;
+    }
+
+    .icon {
+      @include gradient-bg();
+      @include flex-center();
+      border-radius: 50%;
+      width: 9%;
+      margin: -10px 0 0 0;
+      padding: 10px;
+      box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.205);
+    }
+  }
+}
+
+.titulo {
+  text-align: center;
+  margin: 4% 0 3%;
+
+  span {
+    color: rgb(190, 94, 255);
+    font-weight: 600;
+  }
+
+  .subtitle {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 21px;
+  }
+}
+
+// =========================
+// CATEGORIES
+// =========================
+.categories {
+  background-color: rgb(14, 14, 14);
+  padding: 2% 0;
+
+  h2 {
+    text-align: center;
+    margin: 2% 0;
+    color: white;
+  }
+
+}
+.categorie {
+  @include flex-center(row, 30px, center, center);
+  flex-wrap: wrap;
+  width: 100%;
+
+  .cards {
+    @include flex-center(row, 10px, flex-start, center);
+    @include gradient-bg();
+    width: 20vw;
+    height: 8vh;
+    padding: 14px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    span{
+      @include flex-center(row, 10px, flex-start, center);
+        margin: 0 0 0 -3%;
+        padding: 13px;
+        border-radius: 30px;
+        background-color: #000;
+    }
+    svg {
+      margin: 0;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.scss'
-import presentation from '../../assets/presentation.png'
+import presentation from '../../assets/imagens/presentation.png'
 import Button from '../../components/button'
 import { useNavigate } from 'react-router-dom'
 
