@@ -7,9 +7,9 @@ export default function Categories() {
     <section className="categories">
       <h2>Nossos Tópicos</h2>
       <div className="categorie">
-        {categories.map(({ id, text, icon }) => {
+        {categories.map(({ id, text, icon, color }) => {
           const Icon = Icons[icon];
-          return <div key={id} className="cards"><span>{Icon && <Icon size={28} color={"#ffffff"} />}</span><p>{text}</p></div>;
+          return <div key={id} className="cards"><span>{Icon && <Icon size={28} color={'rgb(190, 94, 255)'} />}</span><p>{text}</p></div>;
         })}
       </div>
     </section>
