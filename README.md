@@ -36,8 +36,8 @@ npm run dev
 
 - [x] Setup inicial do frontend e backend  
 - [ ] Configuração do banco de dados (Prisma + MongoDB)  
-- [ ] Autenticação de usuários 
-- [ ] Dashboard do professor  
+- [ ] Cadastro de Usuários ( Backend ) + Tela de Login, Landing Page e Dashboard ( Frontend ) 
+- [ ] Dashboard do professor ( Figma ) 
 - [ ] Upload e gerenciamento de aulas e trilhas  
 - [ ] Sistema de progresso e certificados
 
