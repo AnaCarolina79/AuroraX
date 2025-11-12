@@ -35,7 +35,7 @@ npm run dev
 ## 📈 Roadmap
 
 - [x] Setup inicial do frontend e backend  
-- [ ] Configuração do banco de dados (Prisma + PostgreSQL)  
+- [ ] Configuração do banco de dados (Prisma + MongoDB)  
 - [ ] Autenticação de usuários 
 - [ ] Dashboard do professor  
 - [ ] Upload e gerenciamento de aulas e trilhas  
