@@ -10,9 +10,9 @@ Após o encerramento daquele ciclo, estou criando o **AuroraX** como uma forma d
 ## 🌠 Tecnologias
 
 - **Frontend:** React, Vite, TypeScript, Tailwind CSS  
-- **Backend:** Node.js, Express, Prisma, PostgreSQL  
+- **Backend:** Node.js, Express, Prisma, MongoDB  
 - **Autenticação:** JWT (planejada: OAuth 2.0 / NextAuth)  
-- **Outros:** Docker, ESLint, Prettier
+- **Outros:** ESLint, Prettier
 
 ## ⚙️ Como rodar o projeto
 
