@@ -23,7 +23,7 @@ Após o encerramento daquele ciclo, estou criando o **AuroraX** como uma forma d
 2. Acesse as pastas do Back:
 cd aurorax/backend
 npm install
-npm run dev
+npm start
 
 3. Acesse as pastas do Front:
 cd aurorax/frontend
