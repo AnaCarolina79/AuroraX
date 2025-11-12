@@ -137,13 +137,13 @@
 // CATEGORIES
 // =========================
 .categories {
-  background-color: rgb(14, 14, 14);
   padding: 2% 0;
-
+  height: 45vh;
   h2 {
     text-align: center;
     margin: 2% 0;
-    color: white;
+    color: rgb(22, 22, 22);
+    
   }
 
 }
@@ -159,18 +159,31 @@
     height: 8vh;
     padding: 14px;
     color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.199);
     font-weight: bold;
     font-size: 15px;
     border-radius: 50px;
     span{
       @include flex-center(row, 10px, flex-start, center);
-        margin: 0 0 0 -3%;
-        padding: 13px;
+        margin: 0 0 0 -4%;
+        padding: 12px;
         border-radius: 30px;
-        background-color: #000;
+        background-color: white;
     }
     svg {
       margin: 0;
     }
   }
 }
+
+.courses{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+.card{
+  width: 25vw;
+  height: 25vh;
+  background-color: #3d1657;
+}
+}
+
