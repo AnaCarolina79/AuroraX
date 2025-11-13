@@ -8,17 +8,12 @@ Após o encerramento daquele ciclo, estou criando o **AuroraX** como uma forma d
 > 💬 *“AuroraX é sobre continuar aprendendo, inspirando pessoas e criando um ambiente em que todos possam mudar o mundo, juntos.”*
 
 ## 🌠 Tecnologias
-<div align="left">
-<div align="left">
-    <img src="https://img.shields.io/static/v1?message=React.js&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-    <img src="https://img.shields.io/static/v1?message=Vite&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-    <img src="https://img.shields.io/static/v1?message=Sass&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-    <img src="https://img.shields.io/static/v1?message=Node.js&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-    <img src="https://img.shields.io/static/v1?message=Prisma&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-    <img src="https://img.shields.io/static/v1?message=MongoDB&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
 
-</div>
-</div>
+- **Frontend:** React, Vite, TypeScript, Tailwind CSS  
+- **Backend:** Node.js, Express, Prisma, MongoDB  
+- **Autenticação:** JWT (planejada: OAuth 2.0 / NextAuth)  
+- **Backend:** Node.js, Express, Prisma, MongoDB
+- **Outros:** ESLint, Prettier
 
 ## ⚙️ Como rodar o projeto
 
