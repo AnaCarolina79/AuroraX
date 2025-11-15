@@ -177,13 +177,24 @@
 }
 
 .courses{
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-.card{
-  width: 25vw;
-  height: 25vh;
+margin: 10px 10%;
+  .card {
+  width: 10px;
+  height: 40vh;
   background-color: #3d1657;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+    .slider-cards{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
 }
+
+}
+.slick-slide > div {
+margin: 0 20px;
+
 }
 
