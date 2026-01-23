@@ -6,6 +6,7 @@ import Hero from './hero';
 import About from './about';
 import Courses from './courses';
 import Categories from './categories';
+import Footer from './footer';
 function LandingPage() {
   return (
     <>
@@ -15,6 +16,8 @@ function LandingPage() {
         <About/>
         {/* <Categories/> */}
         <Courses/>
+        <Footer/>
+      
 
     </>
   )

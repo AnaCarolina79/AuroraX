@@ -30,6 +30,13 @@
     margin-top: -10%;
     padding: 6% 10% 20px 20px;
 
+    @media (max-width:2100px) {
+    p {
+      font-size: 20px;
+      margin: 0 0 2% 0
+    }
+
+  }
     p {
       font-size: 18px;
     }
@@ -41,6 +48,7 @@
     .botoes {
       @include flex-center(row, 15px, flex-start, center);
       width: 100%;
+
 
       .inscreva-se {
         @include button();
@@ -190,6 +198,10 @@ margin: 10px 10%;
       flex-direction: column;
       gap: 5px;
     }
+    img{
+      width: 100%;
+      height: 40vh;
+    }
 }
 
 }
@@ -198,3 +210,36 @@ margin: 0 20px;
 
 }
 
+// =========================
+// FOOTER
+// =========================
+
+.footer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 40px;
+  height: auto;
+  padding: 3%;
+  background-color: #1F1F1F;
+  img{
+    width: 15%;
+    height: auto;
+  }
+  .infos{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 50%;
+    padding: 40px;
+    div{
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    a {
+      color: #ffffff;
+    }
+  }
+}

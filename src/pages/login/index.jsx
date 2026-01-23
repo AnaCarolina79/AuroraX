@@ -13,8 +13,8 @@ function Login() {
                 <input type="text" placeholder='Nome'/>
                 <input type="text" placeholder='Senha'/>
               </div>
-              <div className='password'>
 
+              <div className='password'>
                 <a href="">Esqueceu a Senha?</a>
               </div>
               <Button text={'Entrar'}/>

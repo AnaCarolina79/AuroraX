@@ -17,7 +17,8 @@
   }
 
   .password {
-    margin-top: 10px;
+    margin-top: 5px;
+
   }
 
   .form-login {
@@ -80,9 +81,9 @@
   }
 
   .login-image {
-    width: 50vw;
+    width: 60vw;
     height: 100vh;
-    background: url('../../assets/login.png') no-repeat center center;
+    background: url('../../assets/imagens/login.png') no-repeat center center;
     background-size: cover;
     background-color: aliceblue;
   }
@@ -90,6 +91,25 @@
   // -----------------
   // RESPONSIVIDADE
   // -----------------
+  @media (max-width: 2000px) and (min-width:1500px) {
+  
+    .form-login{
+      gap: 15px;
+      button{
+        width: 43%;
+        padding:13px;
+      }
+      .login-input{
+        input{
+          padding:13px;
+          width: 190%;
+        }
+      }
+        .logo{
+      width: 27%;
+    }
+  }
+  }
   @media (max-width: 1050px) {
     .form-login {
       h1 {

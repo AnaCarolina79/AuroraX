@@ -22,13 +22,14 @@ function Courses() {
        <div className="slider-container">
       <Slider {...settings}>
 
-          {categories.map(({ id, text, icon, color }) => {
+          {categories.map(({ id, text, icon, color, img }) => {
             const Icon = Icons[icon];
             return  <div className='card' key={id}>
               <div className='slider-cards'>
                 <span>
                   {Icon && <Icon size={28} color={'rgba(255, 255, 255, 1)'} />}
                 </span>
+                
                 <p>
                   {text}
                 </p>

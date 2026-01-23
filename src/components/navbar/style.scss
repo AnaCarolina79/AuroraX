@@ -1,3 +1,4 @@
+  
 .navbar{
     display: flex;
     justify-content: center;
@@ -24,17 +25,32 @@
     box-shadow:  1px 2px 5px rgba(0, 0, 0, 0.315);
     color: rgb(255, 255, 255);
     img{
-        width: 13%;
+        width: 10%;
         height: auto;
         margin: -5px 0 0 10px;
     }   
     .navbar-center{
         display: flex;
-        gap: 25px;
+        font-size:16px;
+        gap: 40px;
         margin: 0 0 0 10px;
         a{
             
             color: rgb(255, 255, 255);
             }
     }
+}
+@media (max-width:1500px) {
+
+.nav{
+       img{
+        width: 13%;
+      
+    }   
+    .navbar-center{
+        display: flex;
+        gap: 25px;
+     
+           }
+}
 }
