@@ -14,7 +14,7 @@ function LandingPage() {
         <Hero/>
         <Card/>
         <About/>
-        {/* <Categories/> */}
+        <Categories/>
         <Courses/>
         <Footer/>
       

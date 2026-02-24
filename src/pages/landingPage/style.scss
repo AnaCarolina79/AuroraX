@@ -109,16 +109,25 @@
       @include flex-center(row, 10px, flex-start, center);
       width: 100%;
       margin-top: 4%;
+       p{
+      font-size: 18px;
+      width: 80%;
+    }
     }
 
     .icon {
       @include gradient-bg();
       @include flex-center();
       border-radius: 50%;
-      width: 9%;
+      width: 3.2vw;
       margin: -10px 0 0 0;
-      padding: 10px;
+      padding: 12px;
       box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.205);
+    svg{
+      width: 100%;
+      height: auto;
+    }
+   
     }
   }
 }
