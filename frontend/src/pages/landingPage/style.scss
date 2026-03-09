@@ -1,0 +1,264 @@
+@use '../../assets/mixins/geral.scss' as *;
+
+.presentation {
+  width: 100%;
+  height: auto;
+  margin: -5% 0 0;
+  z-index: 10;
+
+  @include responsive(1400px) {
+    margin: -8% 0 0;
+  }
+
+  @include responsive(900px) {
+    margin: -12% 0 0;
+  }
+}
+
+// =========================
+// HERO 
+// =========================
+.textPresentation {
+  @include flex-center(row, 0, flex-start, flex-start);
+  width: 32vw;
+  margin: -30% 5% 8% 5%;
+
+  .text {
+    @include flex-center(column, 10px, flex-start, flex-start);
+    color: #fff;
+    height: 40vh;
+    margin-top: -10%;
+    padding: 6% 10% 20px 20px;
+
+    @media (max-width:2100px) {
+    p {
+      font-size: 20px;
+      margin: 0 0 2% 0
+    }
+
+  }
+    p {
+      font-size: 18px;
+    }
+
+    span {
+      color: rgb(211, 144, 255);
+    }
+
+    .botoes {
+      @include flex-center(row, 15px, flex-start, center);
+      width: 100%;
+
+
+      .inscreva-se {
+        @include button();
+        @include gradient-bg();
+        color: white;
+    &:nth-child(2) {
+      background: #fff;
+      color: #000; 
+      font-weight: 100
+    }
+    }
+
+    }
+  }
+}
+
+// =========================
+// ABOUT
+// =========================
+.about {
+  @include flex-center(row, 0, space-between);
+  padding: 0 10% 0 5%;
+
+  h2 {
+    color: rgb(27, 27, 27);
+    margin-bottom: 5px;
+  }
+
+  div {
+    
+    width: 45%;
+    @include flex-center(column, 10px, flex-start, flex-start);
+
+    p {
+      color: rgb(49, 49, 49);
+      font-size: 18px;
+      @include responsive(1500px){
+      font-size: 16px;
+
+      }
+    }
+  }
+
+  .explorer {
+    margin-top: 5%;
+
+    button {
+      width: 100%;
+      padding: 14px;
+      font-size: 16px;
+      @include responsive(1500px){
+        font-size: 14px;
+  
+      }
+    }
+  }
+
+  img {
+    width: 47%;
+    height: auto;
+  }
+
+  .icons {
+    @include flex-center(column, 0, flex-start, center);
+    width: 100%;
+    gap: 20px;
+    .iconDivision {
+      @include flex-center(row, 10px, flex-start, center);
+      width: 100%;
+      margin-top: 4%;
+       p{
+      font-size: 18px;
+      width: 80%;
+    }
+    }
+
+    .icon {
+      @include gradient-bg();
+      @include flex-center();
+      border-radius: 50%;
+      width: 3.2vw;
+      margin: -10px 0 0 0;
+      padding: 12px;
+      box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.205);
+    svg{
+      width: 100%;
+      height: auto;
+    }
+   
+    }
+  }
+}
+
+.titulo {
+  text-align: center;
+  margin: 4% 0 3%;
+
+  span {
+    color: rgb(190, 94, 255);
+    font-weight: 600;
+  }
+
+  .subtitle {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 21px;
+  }
+}
+
+// =========================
+// CATEGORIES
+// =========================
+.categories {
+  padding: 2% 0;
+  height: 45vh;
+  h2 {
+    text-align: center;
+    margin: 2% 0;
+    color: rgb(22, 22, 22);
+    
+  }
+
+}
+.categorie {
+  @include flex-center(row, 30px, center, center);
+  flex-wrap: wrap;
+  width: 100%;
+
+  .cards {
+    @include flex-center(row, 10px, flex-start, center);
+    @include gradient-bg();
+    width: 20vw;
+    height: 8vh;
+    padding: 14px;
+    color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.199);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    span{
+      @include flex-center(row, 10px, flex-start, center);
+        margin: 0 0 0 -4%;
+        padding: 12px;
+        border-radius: 30px;
+        background-color: white;
+    }
+    svg {
+      margin: 0;
+    }
+  }
+}
+
+.courses{
+margin: 10px 10%;
+  .card {
+  width: 10px;
+  height: 40vh;
+  background-color: #3d1657;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+    .slider-cards{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    img{
+      width: 100%;
+      height: 40vh;
+    }
+}
+
+}
+.slick-slide > div {
+margin: 0 20px;
+
+}
+
+// =========================
+// FOOTER
+// =========================
+
+.footer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 40px;
+  height: auto;
+  padding: 3%;
+  background-color: #1F1F1F;
+  img{
+    width: 15%;
+    height: auto;
+  }
+  .infos{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 50%;
+    padding: 40px;
+    div{
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    a {
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@mixin gradient-bg($from: rgb(189, 99, 250), $to: rgb(171, 60, 245)) {
+  background: linear-gradient(to right, $from, $to);
+  background-size: 450%;
+  background-position: left;
+  transition: 0.3s background-position ease-in-out;
+
+  &:hover {
+    background-position: right;
+  }
+}
+
+@mixin button($width: 40%, $font-size: 15px) {
+  width: $width;
+  padding: 9px;
+  border: none;
+  border-radius: 20px;
+  font-size: $font-size;
+  font-weight: bold;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.315);
+  cursor: pointer;
+}
+
+@mixin flex-center($dir: row, $gap: 10px, $justify: center, $align: center) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $gap;
+}
+
+@mixin responsive($max) {
+  @media (max-width: $max) {
+    @content;
+  }
+}
